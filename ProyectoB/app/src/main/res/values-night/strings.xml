@@ -4,4 +4,7 @@
     <string name="password_txt_login">password</string>
     <string name="enter_btn_login">Enter</string>
     <string name="sign_in_btn_login">Sign in</string>
+    <string name="name_txt_signinactivity">Name</string>
+    <string name="email_txt_signinactivity">Email</string>
+    <string name="save_btn_siginactivity">Save</string>
 </resources>

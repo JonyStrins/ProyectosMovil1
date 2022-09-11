@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Jonathan Alexis Diaz Gonzalez</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hola, mi nombre es Jonathan
+\n\nMe gustan los videojuegos
+\n\nEstudio la universidad, en el Instituto Tecnologico Superior del Sur de Guanajuato
+\nVoy cursando el 7mo semestre
+\n\nSoy alergico a la leche, sufro de rinitis, soy daltonico jaja
+\nMe gusta el NuMetal, el reggue
+\nSoy bueno para lo que hago, me gusta mucho programar.
+\n\nEn mis tiempos libres me gusta jugar videojuegos, jugar baloncesto, salir con mis amigos y escuchar musica
+\n\nMe gustaria aprender a hacer parkour y cantar
+\nSe tocar la guitarra, hacer beatbox, tocar la bateria.\n\n</string>
+
+</resources>

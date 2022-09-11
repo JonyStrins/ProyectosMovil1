@@ -8,12 +8,24 @@
     tools:context=".SigninActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="62dp" />
+        android:hint="@string/name_txt_signinactivity"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_txt_signinactivity"
+        android:id="@+id/txtEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_btn_siginactivity"
+        android:id="@+id/btnSave" />
+
 </LinearLayout>

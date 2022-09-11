@@ -3,9 +3,11 @@ package com.example.proyectob
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContract
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity : AppCompatActivity(){
@@ -17,10 +19,21 @@ class LoginActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_login)
 
-        actResultLauncher = registerForActivityResult(ActivityResultContracts.StarActivityForResult(),
-            ActivityResultCallback {
 
-            })
+        actResultLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult(),
+            ActivityResultCallback {
+                if (it.resultCode == RESULT_OK){
+                    val intpar = it.data
+                    val email = intpar?.getStringExtra("email")
+
+                    Toast.makeText(applicationContext,
+                        "email: $email",
+                        Toast.LENGTH_LONG
+                    ).show()
+                }
+            }
+        )
 
         btnSignin = findViewById(R.id.btnSignin)
         btnSignin.setOnClickListener {
@@ -37,7 +50,8 @@ class LoginActivity : AppCompatActivity(){
                     this.putExtra("param1", 0)
                     this.putExtra("otropar", "Register")
                 }
-            startActivity(int_act_signin)
+            // startActivity(int_act_signin)
+           // actResultLauncher.launch()
         }
     }
 
