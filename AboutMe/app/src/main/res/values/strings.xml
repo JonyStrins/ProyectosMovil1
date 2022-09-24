@@ -2,7 +2,7 @@
     <string name="app_name">AboutMe</string>
     <string name="name">Jonathan Alexis Diaz Gonzalez</string>
     <string name="yellow_star">Yellow star</string>
-    <string name="bio">Hola, mi nombre es Jonathan
+    <string name="bio">Hola, me llamo Jonathan
 \n\nMe gustan los videojuegos
 \n\nEstudio la universidad, en el Instituto Tecnologico Superior del Sur de Guanajuato
 \nVoy cursando el 7mo semestre
@@ -11,6 +11,9 @@
 \nSoy bueno para lo que hago, me gusta mucho programar.
 \n\nEn mis tiempos libres me gusta jugar videojuegos, jugar baloncesto, salir con mis amigos y escuchar musica
 \n\nMe gustaria aprender a hacer parkour y cantar
-\nSe tocar la guitarra, hacer beatbox, tocar la bateria.\n\n</string>
+\nSe tocar la guitarra, hacer beatbox, tocar la bateria.\n\n
+    </string>
+    <string name="what_is_your_nickname">What_is_your_Nickname?</string>
+    <string name="done">Done</string>
 
 </resources>

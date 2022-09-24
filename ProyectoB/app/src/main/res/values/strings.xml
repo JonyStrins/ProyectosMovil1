@@ -7,4 +7,10 @@
     <string name="name_txt_signinactivity">Name</string>
     <string name="email_txt_signinactivity">Email</string>
     <string name="save_btn_siginactivity">Save</string>
+
+    <string-array name="arrSexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>No Binario</item>
+    </string-array>
 </resources>

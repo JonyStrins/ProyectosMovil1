@@ -2,4 +2,6 @@
 <resources>
     <string name="name">Jonathan Alexis Diaz Gonzalez</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="what_is_your_nickname">What_is_your_Nickname?</string>
+    <string name="done">Done</string>
 </resources>
