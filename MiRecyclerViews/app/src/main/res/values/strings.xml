@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiRecyclerViews</string>
+
+    <!-- add in flower names -->
+    <string-array name="flower_array">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
