@@ -11,9 +11,6 @@ import android.widget.TextView
 
 class MainActivity() : AppCompatActivity(), Parcelable {
 
-    val box_three_text = findViewById<TextView>(R.id.box_three_text)
-    val box_four_text = findViewById<TextView>(R.id.box_four_text)
-    val box_five_text = findViewById<TextView>(R.id.box_five_text)
 
     constructor(parcel: Parcel) : this() {
     }
@@ -25,6 +22,10 @@ class MainActivity() : AppCompatActivity(), Parcelable {
     }
 
     private fun makeColored(view: View) {
+
+        val box_three_text = findViewById<TextView>(R.id.box_three_text)
+        val box_four_text = findViewById<TextView>(R.id.box_four_text)
+        val box_five_text = findViewById<TextView>(R.id.box_five_text)
 
         when (view.id) {
             // Boxes using Color class colors for the background
