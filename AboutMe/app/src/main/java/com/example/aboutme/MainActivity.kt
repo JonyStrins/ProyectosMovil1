@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         //findViewById<TextView>(R.id.nickname_text)
-            binding.nicknameText.setOnClickListener{
+        binding.nicknameText.setOnClickListener{
             updateNickname(it)
         }
     }
